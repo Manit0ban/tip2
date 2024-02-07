@@ -27,14 +27,11 @@ function fif () {
 
     // OUT
 
-    final.toFixed(2);
-    final2.toFixed(2);
-    final3.toFixed(2);
 
     
-    finalMes = `Final Bill: ${final}`
-    final2Mes = `Tip Split: ${final2}`
-    final3Mes = `Final Bill Split: ${final3}`
+    finalMes = `Final Bill: ${final.toFixed(2)}`;
+    final2Mes = `Tip Split: ${final2.toFixed(2)}`;
+    final3Mes = `Final Bill Split: ${final3.toFixed(2)}`;
 
     document.getElementById("span").innerHTML = finalMes;
     document.getElementById("span2").innerHTML = final2Mes;
@@ -59,14 +56,11 @@ function twent () {
 
     // OUT
     
-    final.toFixed(2);
-    final2.toFixed(2);
-    final3.toFixed(2);
 
     
-    finalMes = `Final Bill: ${final}`
-    final2Mes = `Tip Split: ${final2}`
-    final3Mes = `Final Bill Split: ${final3}`
+    finalMes = `Final Bill: ${final.toFixed(2)}`;
+    final2Mes = `Tip Split: ${final2.toFixed(2)}`;
+    final3Mes = `Final Bill Split: ${final3.toFixed(2)}`;
 
     document.getElementById("span").innerHTML = finalMes;
     document.getElementById("span2").innerHTML = final2Mes;
@@ -91,15 +85,11 @@ function twentfif () {
     let final3 = final / people;
 
     // OUT
-    
-    final.toFixed(2);
-    final2.toFixed(2);
-    final3.toFixed(2);
 
     
-    finalMes = `Final Bill: ${final}`
-    final2Mes = `Tip Split: ${final2}`
-    final3Mes = `Final Bill Split: ${final3}`
+    finalMes = `Final Bill: ${final.toFixed(2)}`;
+    final2Mes = `Tip Split: ${final2.toFixed(2)}`;
+    final3Mes = `Final Bill Split: ${final3.toFixed(2)}`;
 
     document.getElementById("span").innerHTML = finalMes;
     document.getElementById("span2").innerHTML = final2Mes;
@@ -125,14 +115,12 @@ function thirt () {
 
     // OUT
     
-    final.toFixed(2);
-    final2.toFixed(2);
-    final3.toFixed(2);
+  
 
     
-    finalMes = `Final Bill: ${final}`
-    final2Mes = `Tip Split: ${final2}`
-    final3Mes = `Final Bill Split: ${final3}`
+    finalMes = `Final Bill: ${final.toFixed(2)}`;
+    final2Mes = `Tip Split: ${final2.toFixed(2)}`;
+    final3Mes = `Final Bill Split: ${final3.toFixed(2)}`;
 
     document.getElementById("span").innerHTML = finalMes;
     document.getElementById("span2").innerHTML = final2Mes;
@@ -160,14 +148,9 @@ function custom () {
 
     // OUT
     
-    final.toFixed(2);
-    final2.toFixed(2);
-    final3.toFixed(2);
-
-    
-    finalMes = `Final Bill: ${final}`
-    final2Mes = `Tip Split: ${final2}`
-    final3Mes = `Final Bill Split: ${final3}`
+    finalMes = `Final Bill: ${final.toFixed(2)}`;
+    final2Mes = `Tip Split: ${final2.toFixed(2)}`;
+    final3Mes = `Final Bill Split: ${final3.toFixed(2)}`;
 
     document.getElementById("span").innerHTML = finalMes;
     document.getElementById("span2").innerHTML = final2Mes;
